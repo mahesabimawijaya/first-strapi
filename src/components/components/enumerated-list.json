@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_enumerated_lists",
+  "info": {
+    "displayName": "Enumerated List"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

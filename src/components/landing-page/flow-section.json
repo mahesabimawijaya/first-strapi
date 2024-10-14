@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_page_flow_sections",
+  "info": {
+    "displayName": "Flow Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "flowCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.flow-card",
+      "required": true
+    },
+    "enumeratedList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.enumerated-list",
+      "required": true
+    }
+  }
+}

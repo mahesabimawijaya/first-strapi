@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "Landing Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroSection": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "landing-page.hero-section"
+    },
+    "roleSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.role-section",
+      "required": true
+    },
+    "benefitSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.benefit-section",
+      "required": true
+    },
+    "flowSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.flow-section",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cards_flow_cards",
+  "info": {
+    "displayName": "Flow Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
